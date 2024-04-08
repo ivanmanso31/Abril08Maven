@@ -11,7 +11,7 @@ public class PruebaEj8 {
         System.out.println(c.multiplicar(3.5,0.25));
         try {
             System.out.println(c.dividir(4,0));
-        }catch (Exception e){
+        }catch (ArithmeticException e){
             System.out.println(e.getMessage());
         }
         System.out.println(c.dividir(5.7,2));
